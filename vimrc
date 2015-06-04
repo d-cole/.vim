@@ -26,4 +26,4 @@ set t_Co=256
 
 "Enable syntax and set colorscheme
 syntax enable
-colorscheme monokai
+colorscheme ingretu
