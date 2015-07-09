@@ -4,7 +4,7 @@ set langmenu=none
 "Set tab to 4 spaces
 set expandtab
 set tabstop=4
-
+set nocompatible
 "Number of space characters inserted for indentation
 set shiftwidth=4
 "Remove Arrow key functionality
@@ -26,4 +26,12 @@ set t_Co=256
 
 "Enable syntax and set colorscheme
 syntax enable
-colorscheme ingretu
+"colorscheme ingretu
+
+
+highlight OverLength ctermbg=red ctermfg=white guibg=#592929
+match OverLength /\%81v.\+/
+
+
+
+
